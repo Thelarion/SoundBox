@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{66AC1103-DA23-8DC0-FA26-3BDBC05BF848}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2513915904" Name="Hall_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Large" GUID="{6D154498-FF6D-4823-96FC-56841B70E079}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{276C5AC4-3491-466D-8CF8-7EE290B8AA78}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{39D7F775-7602-4E8D-A1A7-B6EBDE2249C3}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music" GUID="{7363703D-4A63-451C-B568-0CC2FAE973BF}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2513915904"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="41218846" Name="RTPC_Master_RVB" ObjectPath="\Game Parameters\Master\RTPC_Master_RVB" GUID="{994E723E-6733-4658-B45B-7F2097F5F7CF}"/>
+				<GameParameter Id="87502838" Name="RTPC_Arp_Delay" ObjectPath="\Game Parameters\Arp\RTPC_Arp_Delay" GUID="{940C32C5-35A8-4F19-A68B-A818080D8D9C}"/>
+				<GameParameter Id="379770812" Name="RTPC_Piano_VOL" ObjectPath="\Game Parameters\Piano\RTPC_Piano_VOL" GUID="{D1A21D3E-D6CF-4842-920F-C718B0F15E7B}"/>
+				<GameParameter Id="411533881" Name="RTPC_Bass_LP" ObjectPath="\Game Parameters\Bass\RTPC_Bass_LP" GUID="{50446EA5-7B12-4601-97C4-7756D56EE444}"/>
+				<GameParameter Id="460070935" Name="RTPC_Master_VOL" ObjectPath="\Game Parameters\Master\RTPC_Master_VOL" GUID="{287BA3A4-30EB-411E-8A86-D70F125F8317}"/>
+				<GameParameter Id="478644453" Name="RTPC_Bass_HP" ObjectPath="\Game Parameters\Bass\RTPC_Bass_HP" GUID="{65109EA7-4DD5-49A1-9A91-31F3CB66DC95}"/>
+				<GameParameter Id="609314494" Name="RTPC_HarpTime_HP" ObjectPath="\Game Parameters\HarpTime\RTPC_HarpTime_HP" GUID="{A8E66D39-85BA-4BF1-832E-4E7927ED11E0}"/>
+				<GameParameter Id="674284499" Name="RTPC_RiseFall" ObjectPath="\Game Parameters\Misc\RTPC_RiseFall" GUID="{38AAC24C-0FA8-4E60-88DD-0CA32103865E}"/>
+				<GameParameter Id="676425066" Name="RTPC_HarpTime_LP" ObjectPath="\Game Parameters\HarpTime\RTPC_HarpTime_LP" GUID="{BA6C08A5-E43A-4972-BFEB-CF04CFB9659E}"/>
+				<GameParameter Id="682833856" Name="RTPC_Drums_VOL" ObjectPath="\Game Parameters\Drums\RTPC_Drums_VOL" GUID="{68BCC5A0-5EAA-4C62-A605-04B9B64AAA35}"/>
+				<GameParameter Id="1467713223" Name="RTPC_HarpTime_Delay" ObjectPath="\Game Parameters\HarpTime\RTPC_HarpTime_Delay" GUID="{1203EBFD-4DC7-4D5C-8600-07BAC2735AC7}"/>
+				<GameParameter Id="1804037482" Name="RTPC_Bass_Delay" ObjectPath="\Game Parameters\Bass\RTPC_Bass_Delay" GUID="{788AB6A4-2AF0-4164-A603-2A97D72317A1}"/>
+				<GameParameter Id="2055146965" Name="RTPC_Piano_Pitch" ObjectPath="\Game Parameters\Piano\RTPC_Piano_Pitch" GUID="{23E8985B-E18B-463F-BE96-E7D7B9496D4B}"/>
+				<GameParameter Id="2097049258" Name="RTPC_Drums_Delay" ObjectPath="\Game Parameters\Drums\RTPC_Drums_Delay" GUID="{C8DC17E3-7080-45B9-9F29-0E2607156F3A}"/>
+				<GameParameter Id="2103831024" Name="RTPC_HarpTime_Pitch" ObjectPath="\Game Parameters\HarpTime\RTPC_HarpTime_Pitch" GUID="{46665EAA-403B-4594-8EF9-A9D2349D4D4F}"/>
+				<GameParameter Id="2332837416" Name="RTPC_Master_LP" ObjectPath="\Game Parameters\Master\RTPC_Master_LP" GUID="{73656CCF-8053-4987-945F-A7A9EEE4100E}"/>
+				<GameParameter Id="2441990300" Name="RTPC_Arp_VOL" ObjectPath="\Game Parameters\Arp\RTPC_Arp_VOL" GUID="{DC49804C-6C37-449B-A0E9-642FD3A3D9FA}"/>
+				<GameParameter Id="2662075697" Name="RTPC_Piano_HP" ObjectPath="\Game Parameters\Piano\RTPC_Piano_HP" GUID="{CA5D602F-EF29-4A35-A0AD-7A1D5A2E8382}"/>
+				<GameParameter Id="2729186301" Name="RTPC_Piano_LP" ObjectPath="\Game Parameters\Piano\RTPC_Piano_LP" GUID="{918C16E3-C885-4C40-81F8-95CF4D3F87FD}"/>
+				<GameParameter Id="3085748149" Name="RTPC_Arp_Pitch" ObjectPath="\Game Parameters\Arp\RTPC_Arp_Pitch" GUID="{F7F9B1E0-C682-4616-BA82-18F559D4934B}"/>
+				<GameParameter Id="3275349120" Name="RTPC_Bass_VOL" ObjectPath="\Game Parameters\Bass\RTPC_Bass_VOL" GUID="{30C24F8E-DA33-42B7-B11B-3CF94DAF2DE0}"/>
+				<GameParameter Id="3351868694" Name="RTPC_Piano_Delay" ObjectPath="\Game Parameters\Piano\RTPC_Piano_Delay" GUID="{74F72505-F431-4420-88DB-1C9F3BA86766}"/>
+				<GameParameter Id="3354580169" Name="RTPC_Bass_Pitch" ObjectPath="\Game Parameters\Bass\RTPC_Bass_Pitch" GUID="{7A1FC6DB-3FF4-4304-9781-041CB26DA130}"/>
+				<GameParameter Id="3438179605" Name="RTPC_HarpTime_VOL" ObjectPath="\Game Parameters\HarpTime\RTPC_HarpTime_VOL" GUID="{800CD12C-FA08-4721-A276-CBA063CA0F99}"/>
+				<GameParameter Id="3525080441" Name="RTPC_Drums_LP" ObjectPath="\Game Parameters\Drums\RTPC_Drums_LP" GUID="{A816CD39-6509-4617-9A2B-C840B94913B8}"/>
+				<GameParameter Id="3592190757" Name="RTPC_Drums_HP" ObjectPath="\Game Parameters\Drums\RTPC_Drums_HP" GUID="{7E7DAD73-6D02-41B6-A2A1-CDD3063ADE4B}"/>
+				<GameParameter Id="3647488777" Name="RTPC_Drums_Pitch" ObjectPath="\Game Parameters\Drums\RTPC_Drums_Pitch" GUID="{E2CF51D4-75C9-4D06-A7E6-8361353414EA}"/>
+				<GameParameter Id="3835519889" Name="RTPC_Arp_HP" ObjectPath="\Game Parameters\Arp\RTPC_Arp_HP" GUID="{C718F0F4-8143-49A4-8150-EFC0C1B2FC14}"/>
+				<GameParameter Id="3902630493" Name="RTPC_Arp_LP" ObjectPath="\Game Parameters\Arp\RTPC_Arp_LP" GUID="{C3048FD3-C2A3-4ECF-A1D0-B6E5F57C4C32}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{81B9D8E9-0E25-B13C-FAE1-D974A4E76475}</FileHash>
+</SoundBanksInfo>

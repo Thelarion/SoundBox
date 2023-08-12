@@ -1,0 +1,459 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "4056684167",
+    "Type": "User",
+    "GUID": "{6B61AAB5-5C2C-4F8D-8D55-294AB08F0708}",
+    "Language": "SFX",
+    "Hash": "{A6853B62-7950-47C7-520F-A6456CE7D2C1}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master",
+    "ShortName": "Master",
+    "Path": "Master.bnk",
+    "Media": [
+     {
+      "Id": "188110689",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stems SongA\\SongA_Bass.wav",
+      "CachePath": "SFX/Stems SongA/SongA_Bass_9EDFC787.wem"
+     },
+     {
+      "Id": "299519966",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stems SongA\\SongA_Arp.wav",
+      "CachePath": "SFX/Stems SongA/SongA_Arp_9EDFC787.wem"
+     },
+     {
+      "Id": "315308905",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VMH2 Minimal Perc 004.wav",
+      "CachePath": "SFX/VMH2 Minimal Perc 004_10C4C929.wem"
+     },
+     {
+      "Id": "321851588",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stems SongA\\SongA_Piano.wav",
+      "CachePath": "SFX/Stems SongA/SongA_Piano_9EDFC787.wem"
+     },
+     {
+      "Id": "490284346",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stems SongA\\SongA_Drums.wav",
+      "CachePath": "SFX/Stems SongA/SongA_Drums_9EDFC787.wem"
+     },
+     {
+      "Id": "594516900",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stems SongA\\SongA_HarpTime.wav",
+      "CachePath": "SFX/Stems SongA/SongA_HarpTime_9EDFC787.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "704480499",
+       "Name": "Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\TestSounds\\RiseFall\\Synth One",
+       "GUID": "{602CD9D6-E17B-46A6-A36F-BEEE4A79C590}",
+       "LibName": "Wwise Synth One",
+       "LibId": "9699330"
+      },
+      {
+       "Id": "852746206",
+       "Name": "Synth One",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\TestSounds\\Beep1\\Synth One",
+       "GUID": "{56962E17-62D5-468F-BA53-F21F1D49C911}",
+       "LibName": "Wwise Synth One",
+       "LibId": "9699330"
+      },
+      {
+       "Id": "993948654",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\TestSounds\\Beep_Metronom\\Silence_1sec\\Silence",
+       "GUID": "{26B7DC58-A059-4503-A1AD-C061A4545FBD}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "333065928",
+       "Name": "Arp_Delay",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Arp_Delay",
+       "GUID": "{4DC6F6C7-504A-445E-A435-3DAFD984481D}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      },
+      {
+       "Id": "483428359",
+       "Name": "Arp_Pitch_Shifter",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Arp_Pitch_Shifter",
+       "GUID": "{EDB60F41-A45C-4C2C-A6DB-0ED21F9425C2}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      },
+      {
+       "Id": "579643123",
+       "Name": "Piano_Pitch_Shifter",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Piano_Pitch_Shifter",
+       "GUID": "{97991960-F953-454E-9557-311135AAD09C}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      },
+      {
+       "Id": "1896860126",
+       "Name": "HarpTime_Pitch_Shifter",
+       "ObjectPath": "\\Effects\\Default Work Unit\\HarpTime_Pitch_Shifter",
+       "GUID": "{66F7263F-09BD-4CBF-94C8-D46439E59DFA}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      },
+      {
+       "Id": "2106468036",
+       "Name": "Piano_Delay",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Piano_Delay",
+       "GUID": "{C8D56030-01C5-454A-8DC7-7936D4C223AA}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      },
+      {
+       "Id": "2138634183",
+       "Name": "Drums_Pitch_Shifter",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Drums_Pitch_Shifter",
+       "GUID": "{17F2980B-376C-4FF9-8577-AC3F98085F14}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      },
+      {
+       "Id": "2362715229",
+       "Name": "HarpTime_Delay",
+       "ObjectPath": "\\Effects\\Default Work Unit\\HarpTime_Delay",
+       "GUID": "{BEEB8695-054D-427E-84CC-DD25EAF789AD}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      },
+      {
+       "Id": "3227491984",
+       "Name": "Bass_Delay",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Bass_Delay",
+       "GUID": "{269A6361-C917-4D69-BED4-AA3A7133EC1E}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      },
+      {
+       "Id": "3515392904",
+       "Name": "Drums_Delay",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Drums_Delay",
+       "GUID": "{26AFBDFF-A282-4442-BFAF-416641489050}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      },
+      {
+       "Id": "4165412415",
+       "Name": "Bass_Pitch_Shifter",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Bass_Pitch_Shifter",
+       "GUID": "{4B1BEF03-A3D6-46D8-917B-FC964DB58594}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2157876591",
+      "Name": "Play_Beep1",
+      "ObjectPath": "\\Events\\TestSounds\\Play_Beep1",
+      "GUID": "{4A1112DC-F139-41D7-8480-F2A8184A1C84}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Unknown",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "852746206"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1972656601",
+      "Name": "Play_Beep_Met",
+      "ObjectPath": "\\Events\\TestSounds\\Play_Beep_Met",
+      "GUID": "{D83A1BCB-2899-490D-92D1-DBCBCC79B5B6}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "315308905"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "993948654"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2597531006",
+      "Name": "Play_RiseFall",
+      "ObjectPath": "\\Events\\TestSounds\\Play_RiseFall",
+      "GUID": "{DA7E7F2B-3C44-4F3E-ABE0-D05A0C6A982A}",
+      "DurationType": "Unknown",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "704480499"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3409648230",
+      "Name": "Play_SongA",
+      "ObjectPath": "\\Events\\Tunes\\Play_SongA",
+      "GUID": "{435FDC4F-5BD0-4B19-8E6E-A7C9D7EE7209}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "188110689"
+       },
+       {
+        "Id": "299519966"
+       },
+       {
+        "Id": "321851588"
+       },
+       {
+        "Id": "490284346"
+       },
+       {
+        "Id": "594516900"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "333065928"
+        },
+        {
+         "Id": "483428359"
+        },
+        {
+         "Id": "579643123"
+        },
+        {
+         "Id": "1896860126"
+        },
+        {
+         "Id": "2106468036"
+        },
+        {
+         "Id": "2138634183"
+        },
+        {
+         "Id": "2362715229"
+        },
+        {
+         "Id": "3227491984"
+        },
+        {
+         "Id": "3515392904"
+        },
+        {
+         "Id": "4165412415"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "881105728",
+      "Name": "Stop_RiseFall",
+      "ObjectPath": "\\Events\\TestSounds\\Stop_RiseFall",
+      "GUID": "{83B4A832-CC45-4064-A8A5-89CDD9458C69}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "87502838",
+      "Name": "RTPC_Arp_Delay",
+      "ObjectPath": "\\Game Parameters\\Arp\\RTPC_Arp_Delay",
+      "GUID": "{940C32C5-35A8-4F19-A68B-A818080D8D9C}"
+     },
+     {
+      "Id": "379770812",
+      "Name": "RTPC_Piano_VOL",
+      "ObjectPath": "\\Game Parameters\\Piano\\RTPC_Piano_VOL",
+      "GUID": "{D1A21D3E-D6CF-4842-920F-C718B0F15E7B}"
+     },
+     {
+      "Id": "411533881",
+      "Name": "RTPC_Bass_LP",
+      "ObjectPath": "\\Game Parameters\\Bass\\RTPC_Bass_LP",
+      "GUID": "{50446EA5-7B12-4601-97C4-7756D56EE444}"
+     },
+     {
+      "Id": "478644453",
+      "Name": "RTPC_Bass_HP",
+      "ObjectPath": "\\Game Parameters\\Bass\\RTPC_Bass_HP",
+      "GUID": "{65109EA7-4DD5-49A1-9A91-31F3CB66DC95}"
+     },
+     {
+      "Id": "609314494",
+      "Name": "RTPC_HarpTime_HP",
+      "ObjectPath": "\\Game Parameters\\HarpTime\\RTPC_HarpTime_HP",
+      "GUID": "{A8E66D39-85BA-4BF1-832E-4E7927ED11E0}"
+     },
+     {
+      "Id": "674284499",
+      "Name": "RTPC_RiseFall",
+      "ObjectPath": "\\Game Parameters\\Misc\\RTPC_RiseFall",
+      "GUID": "{38AAC24C-0FA8-4E60-88DD-0CA32103865E}"
+     },
+     {
+      "Id": "676425066",
+      "Name": "RTPC_HarpTime_LP",
+      "ObjectPath": "\\Game Parameters\\HarpTime\\RTPC_HarpTime_LP",
+      "GUID": "{BA6C08A5-E43A-4972-BFEB-CF04CFB9659E}"
+     },
+     {
+      "Id": "682833856",
+      "Name": "RTPC_Drums_VOL",
+      "ObjectPath": "\\Game Parameters\\Drums\\RTPC_Drums_VOL",
+      "GUID": "{68BCC5A0-5EAA-4C62-A605-04B9B64AAA35}"
+     },
+     {
+      "Id": "1467713223",
+      "Name": "RTPC_HarpTime_Delay",
+      "ObjectPath": "\\Game Parameters\\HarpTime\\RTPC_HarpTime_Delay",
+      "GUID": "{1203EBFD-4DC7-4D5C-8600-07BAC2735AC7}"
+     },
+     {
+      "Id": "1804037482",
+      "Name": "RTPC_Bass_Delay",
+      "ObjectPath": "\\Game Parameters\\Bass\\RTPC_Bass_Delay",
+      "GUID": "{788AB6A4-2AF0-4164-A603-2A97D72317A1}"
+     },
+     {
+      "Id": "2055146965",
+      "Name": "RTPC_Piano_Pitch",
+      "ObjectPath": "\\Game Parameters\\Piano\\RTPC_Piano_Pitch",
+      "GUID": "{23E8985B-E18B-463F-BE96-E7D7B9496D4B}"
+     },
+     {
+      "Id": "2097049258",
+      "Name": "RTPC_Drums_Delay",
+      "ObjectPath": "\\Game Parameters\\Drums\\RTPC_Drums_Delay",
+      "GUID": "{C8DC17E3-7080-45B9-9F29-0E2607156F3A}"
+     },
+     {
+      "Id": "2103831024",
+      "Name": "RTPC_HarpTime_Pitch",
+      "ObjectPath": "\\Game Parameters\\HarpTime\\RTPC_HarpTime_Pitch",
+      "GUID": "{46665EAA-403B-4594-8EF9-A9D2349D4D4F}"
+     },
+     {
+      "Id": "2441990300",
+      "Name": "RTPC_Arp_VOL",
+      "ObjectPath": "\\Game Parameters\\Arp\\RTPC_Arp_VOL",
+      "GUID": "{DC49804C-6C37-449B-A0E9-642FD3A3D9FA}"
+     },
+     {
+      "Id": "2662075697",
+      "Name": "RTPC_Piano_HP",
+      "ObjectPath": "\\Game Parameters\\Piano\\RTPC_Piano_HP",
+      "GUID": "{CA5D602F-EF29-4A35-A0AD-7A1D5A2E8382}"
+     },
+     {
+      "Id": "2729186301",
+      "Name": "RTPC_Piano_LP",
+      "ObjectPath": "\\Game Parameters\\Piano\\RTPC_Piano_LP",
+      "GUID": "{918C16E3-C885-4C40-81F8-95CF4D3F87FD}"
+     },
+     {
+      "Id": "3085748149",
+      "Name": "RTPC_Arp_Pitch",
+      "ObjectPath": "\\Game Parameters\\Arp\\RTPC_Arp_Pitch",
+      "GUID": "{F7F9B1E0-C682-4616-BA82-18F559D4934B}"
+     },
+     {
+      "Id": "3275349120",
+      "Name": "RTPC_Bass_VOL",
+      "ObjectPath": "\\Game Parameters\\Bass\\RTPC_Bass_VOL",
+      "GUID": "{30C24F8E-DA33-42B7-B11B-3CF94DAF2DE0}"
+     },
+     {
+      "Id": "3351868694",
+      "Name": "RTPC_Piano_Delay",
+      "ObjectPath": "\\Game Parameters\\Piano\\RTPC_Piano_Delay",
+      "GUID": "{74F72505-F431-4420-88DB-1C9F3BA86766}"
+     },
+     {
+      "Id": "3354580169",
+      "Name": "RTPC_Bass_Pitch",
+      "ObjectPath": "\\Game Parameters\\Bass\\RTPC_Bass_Pitch",
+      "GUID": "{7A1FC6DB-3FF4-4304-9781-041CB26DA130}"
+     },
+     {
+      "Id": "3438179605",
+      "Name": "RTPC_HarpTime_VOL",
+      "ObjectPath": "\\Game Parameters\\HarpTime\\RTPC_HarpTime_VOL",
+      "GUID": "{800CD12C-FA08-4721-A276-CBA063CA0F99}"
+     },
+     {
+      "Id": "3525080441",
+      "Name": "RTPC_Drums_LP",
+      "ObjectPath": "\\Game Parameters\\Drums\\RTPC_Drums_LP",
+      "GUID": "{A816CD39-6509-4617-9A2B-C840B94913B8}"
+     },
+     {
+      "Id": "3592190757",
+      "Name": "RTPC_Drums_HP",
+      "ObjectPath": "\\Game Parameters\\Drums\\RTPC_Drums_HP",
+      "GUID": "{7E7DAD73-6D02-41B6-A2A1-CDD3063ADE4B}"
+     },
+     {
+      "Id": "3647488777",
+      "Name": "RTPC_Drums_Pitch",
+      "ObjectPath": "\\Game Parameters\\Drums\\RTPC_Drums_Pitch",
+      "GUID": "{E2CF51D4-75C9-4D06-A7E6-8361353414EA}"
+     },
+     {
+      "Id": "3835519889",
+      "Name": "RTPC_Arp_HP",
+      "ObjectPath": "\\Game Parameters\\Arp\\RTPC_Arp_HP",
+      "GUID": "{C718F0F4-8143-49A4-8150-EFC0C1B2FC14}"
+     },
+     {
+      "Id": "3902630493",
+      "Name": "RTPC_Arp_LP",
+      "ObjectPath": "\\Game Parameters\\Arp\\RTPC_Arp_LP",
+      "GUID": "{C3048FD3-C2A3-4ECF-A1D0-B6E5F57C4C32}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{81F56F77-A2E6-80EE-2855-5B0C26EEE9A4}"
+ }
+}

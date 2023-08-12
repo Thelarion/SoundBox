@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA018098-D206-42A6-897C-E9CB1E799D6A}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Piano" ID="{FA018098-D206-42A6-897C-E9CB1E799D6A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Piano_LP" ID="{918C16E3-C885-4C40-81F8-95CF4D3F87FD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Piano_Pitch" ID="{23E8985B-E18B-463F-BE96-E7D7B9496D4B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Piano_Delay" ID="{74F72505-F431-4420-88DB-1C9F3BA86766}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Piano_HP" ID="{CA5D602F-EF29-4A35-A0AD-7A1D5A2E8382}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Piano_VOL" ID="{D1A21D3E-D6CF-4842-920F-C718B0F15E7B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

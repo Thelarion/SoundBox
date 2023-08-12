@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F8CDA53B-5265-44B5-9E5D-05DF5C6FE7C6}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Drums" ID="{F8CDA53B-5265-44B5-9E5D-05DF5C6FE7C6}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Drums_LP" ID="{A816CD39-6509-4617-9A2B-C840B94913B8}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Drums_HP" ID="{7E7DAD73-6D02-41B6-A2A1-CDD3063ADE4B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Drums_Delay" ID="{C8DC17E3-7080-45B9-9F29-0E2607156F3A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Drums_Pitch" ID="{E2CF51D4-75C9-4D06-A7E6-8361353414EA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Drums_VOL" ID="{68BCC5A0-5EAA-4C62-A605-04B9B64AAA35}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7DA87343-B62C-4E22-B5E2-2DF95643E079}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="TestSounds" ID="{7DA87343-B62C-4E22-B5E2-2DF95643E079}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Beep1" ID="{4A1112DC-F139-41D7-8480-F2A8184A1C84}">
+					<ChildrenList>
+						<Action Name="" ID="{ACB441AA-4CE0-4F9E-988E-3D33B0D15E63}" ShortID="105749801">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beep1" ID="{852271AC-2E92-495E-B507-39BEDA92E568}" WorkUnitID="{4DEDC6C6-C783-4E11-B5AB-B7D8269644CF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Beep_Met" ID="{D83A1BCB-2899-490D-92D1-DBCBCC79B5B6}">
+					<ChildrenList>
+						<Action Name="" ID="{051DF46F-F1F7-479D-B96C-447830937839}" ShortID="317700773">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beep_Metronom" ID="{CBA68182-689A-4AE3-89FE-26E19BBEF16A}" WorkUnitID="{4DEDC6C6-C783-4E11-B5AB-B7D8269644CF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RiseFall" ID="{DA7E7F2B-3C44-4F3E-ABE0-D05A0C6A982A}">
+					<ChildrenList>
+						<Action Name="" ID="{FA4E64A2-08A8-4C9F-BB26-FEBFC3D8D0F4}" ShortID="535557317">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RiseFall" ID="{3CC151F5-FD1B-4F5B-9AC8-A2EEBACFDCC9}" WorkUnitID="{4DEDC6C6-C783-4E11-B5AB-B7D8269644CF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_RiseFall" ID="{83B4A832-CC45-4064-A8A5-89CDD9458C69}">
+					<ChildrenList>
+						<Action Name="" ID="{5302950B-A9D9-4428-8246-7A2241374DE2}" ShortID="444512249">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="8"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RiseFall" ID="{3CC151F5-FD1B-4F5B-9AC8-A2EEBACFDCC9}" WorkUnitID="{4DEDC6C6-C783-4E11-B5AB-B7D8269644CF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

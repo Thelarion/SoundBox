@@ -1,0 +1,64 @@
+Event	ID	Name			Wwise Object Path	Notes
+	881105728	Stop_RiseFall			\TestSounds\Stop_RiseFall	
+	1972656601	Play_Beep_Met			\TestSounds\Play_Beep_Met	
+	2157876591	Play_Beep1			\TestSounds\Play_Beep1	
+	2597531006	Play_RiseFall			\TestSounds\Play_RiseFall	
+	3409648230	Play_SongA			\Tunes\Play_SongA	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	87502838	RTPC_Arp_Delay			\Arp\RTPC_Arp_Delay	
+	379770812	RTPC_Piano_VOL			\Piano\RTPC_Piano_VOL	
+	411533881	RTPC_Bass_LP			\Bass\RTPC_Bass_LP	
+	478644453	RTPC_Bass_HP			\Bass\RTPC_Bass_HP	
+	609314494	RTPC_HarpTime_HP			\HarpTime\RTPC_HarpTime_HP	
+	674284499	RTPC_RiseFall			\Misc\RTPC_RiseFall	
+	676425066	RTPC_HarpTime_LP			\HarpTime\RTPC_HarpTime_LP	
+	682833856	RTPC_Drums_VOL			\Drums\RTPC_Drums_VOL	
+	1467713223	RTPC_HarpTime_Delay			\HarpTime\RTPC_HarpTime_Delay	
+	1804037482	RTPC_Bass_Delay			\Bass\RTPC_Bass_Delay	
+	2055146965	RTPC_Piano_Pitch			\Piano\RTPC_Piano_Pitch	
+	2097049258	RTPC_Drums_Delay			\Drums\RTPC_Drums_Delay	
+	2103831024	RTPC_HarpTime_Pitch			\HarpTime\RTPC_HarpTime_Pitch	
+	2441990300	RTPC_Arp_VOL			\Arp\RTPC_Arp_VOL	
+	2662075697	RTPC_Piano_HP			\Piano\RTPC_Piano_HP	
+	2729186301	RTPC_Piano_LP			\Piano\RTPC_Piano_LP	
+	3085748149	RTPC_Arp_Pitch			\Arp\RTPC_Arp_Pitch	
+	3275349120	RTPC_Bass_VOL			\Bass\RTPC_Bass_VOL	
+	3351868694	RTPC_Piano_Delay			\Piano\RTPC_Piano_Delay	
+	3354580169	RTPC_Bass_Pitch			\Bass\RTPC_Bass_Pitch	
+	3438179605	RTPC_HarpTime_VOL			\HarpTime\RTPC_HarpTime_VOL	
+	3525080441	RTPC_Drums_LP			\Drums\RTPC_Drums_LP	
+	3592190757	RTPC_Drums_HP			\Drums\RTPC_Drums_HP	
+	3647488777	RTPC_Drums_Pitch			\Drums\RTPC_Drums_Pitch	
+	3835519889	RTPC_Arp_HP			\Arp\RTPC_Arp_HP	
+	3902630493	RTPC_Arp_LP			\Arp\RTPC_Arp_LP	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	295856841	Modulator Envelope (Custom)				
+	316635419	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	333065928	Arp_Delay	Wwise Delay			
+	483428359	Arp_Pitch_Shifter	Wwise Pitch Shifter			
+	579643123	Piano_Pitch_Shifter	Wwise Pitch Shifter			
+	1896860126	HarpTime_Pitch_Shifter	Wwise Pitch Shifter			
+	2106468036	Piano_Delay	Wwise Delay			
+	2138634183	Drums_Pitch_Shifter	Wwise Pitch Shifter			
+	2362715229	HarpTime_Delay	Wwise Delay			
+	3227491984	Bass_Delay	Wwise Delay			
+	3515392904	Drums_Delay	Wwise Delay			
+	4165412415	Bass_Pitch_Shifter	Wwise Pitch Shifter			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	704480499	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\TestSounds\RiseFall\Synth One	
+	852746206	Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\TestSounds\Beep1\Synth One	
+	993948654	Silence	Wwise Silence		\Actor-Mixer Hierarchy\TestSounds\Beep_Metronom\Silence_1sec\Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	188110689	SongA_Bass	D:\Benutzer\Benjamin\Dokumente\Unreal Projects\Playgrounds\SoundBox\SoundBox_WwiseProject\.cache\Windows\SFX\Stems SongA\SongA_Bass_9EDFC787.wem		\Interactive Music Hierarchy\Tunes\SongA\Stems SongA\SongA_Bass		553136
+	299519966	SongA_Arp	D:\Benutzer\Benjamin\Dokumente\Unreal Projects\Playgrounds\SoundBox\SoundBox_WwiseProject\.cache\Windows\SFX\Stems SongA\SongA_Arp_9EDFC787.wem		\Interactive Music Hierarchy\Tunes\SongA\Stems SongA\SongA_Arp		859801
+	315308905	Percussion	D:\Benutzer\Benjamin\Dokumente\Unreal Projects\Playgrounds\SoundBox\SoundBox_WwiseProject\.cache\Windows\SFX\VMH2 Minimal Perc 004_10C4C929.wem		\Actor-Mixer Hierarchy\TestSounds\Beep_Metronom\Percussion		17068
+	321851588	SongA_Piano	D:\Benutzer\Benjamin\Dokumente\Unreal Projects\Playgrounds\SoundBox\SoundBox_WwiseProject\.cache\Windows\SFX\Stems SongA\SongA_Piano_9EDFC787.wem		\Interactive Music Hierarchy\Tunes\SongA\Stems SongA\SongA_Piano		585084
+	490284346	SongA_Drums	D:\Benutzer\Benjamin\Dokumente\Unreal Projects\Playgrounds\SoundBox\SoundBox_WwiseProject\.cache\Windows\SFX\Stems SongA\SongA_Drums_9EDFC787.wem		\Interactive Music Hierarchy\Tunes\SongA\Stems SongA\SongA_Drums		769736
+	594516900	SongA_HarpTime	D:\Benutzer\Benjamin\Dokumente\Unreal Projects\Playgrounds\SoundBox\SoundBox_WwiseProject\.cache\Windows\SFX\Stems SongA\SongA_HarpTime_9EDFC787.wem		\Interactive Music Hierarchy\Tunes\SongA\Stems SongA\SongA_HarpTime		646474
+

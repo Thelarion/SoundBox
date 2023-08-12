@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6F47F5E8-F235-4363-8F37-2B3A11EF6DA4}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Master" ID="{6F47F5E8-F235-4363-8F37-2B3A11EF6DA4}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Master_LP" ID="{73656CCF-8053-4987-945F-A7A9EEE4100E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Master_RVB" ID="{994E723E-6733-4658-B45B-7F2097F5F7CF}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Master_VOL" ID="{287BA3A4-30EB-411E-8A86-D70F125F8317}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

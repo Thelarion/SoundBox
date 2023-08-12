@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D42C31A0-DC43-44BA-9907-FBF244340CAE}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="HarpTime" ID="{D42C31A0-DC43-44BA-9907-FBF244340CAE}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_HarpTime_LP" ID="{BA6C08A5-E43A-4972-BFEB-CF04CFB9659E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_HarpTime_Pitch" ID="{46665EAA-403B-4594-8EF9-A9D2349D4D4F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_HarpTime_Delay" ID="{1203EBFD-4DC7-4D5C-8600-07BAC2735AC7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_HarpTime_HP" ID="{A8E66D39-85BA-4BF1-832E-4E7927ED11E0}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_HarpTime_VOL" ID="{800CD12C-FA08-4721-A276-CBA063CA0F99}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

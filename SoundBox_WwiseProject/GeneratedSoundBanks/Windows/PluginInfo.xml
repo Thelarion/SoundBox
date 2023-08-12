@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Platform="Windows" BasePlatform="Windows">
+	<PluginLibs>
+		<PluginLib LibName="Wwise Silence" LibId="6619138" Type="Source" DLL="AkSilenceGenerator" StaticLib="AkSilenceSource"/>
+		<PluginLib LibName="Wwise Delay" LibId="6946819" Type="Effect" DLL="AkDelay" StaticLib="AkDelayFX"/>
+		<PluginLib LibName="Wwise RoomVerb" LibId="7733251" Type="Effect" DLL="AkRoomVerb" StaticLib="AkRoomVerbFX"/>
+		<PluginLib LibName="Wwise Pitch Shifter" LibId="8912899" Type="Effect" DLL="AkPitchShifter" StaticLib="AkPitchShifterFX"/>
+		<PluginLib LibName="Wwise Synth One" LibId="9699330" Type="Source" DLL="AkSynthOne" StaticLib="AkSynthOneSource"/>
+		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
+		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
+	</PluginLibs>
+	<FileHash>{650641C2-6D63-A407-A50C-B479777D2115}</FileHash>
+</PluginInfo>

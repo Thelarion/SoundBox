@@ -1,0 +1,54 @@
+{
+ "PluginInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "PluginLibs": [
+   {
+    "LibName": "Wwise Silence",
+    "LibId": "6619138",
+    "Type": "Source",
+    "DLL": "AkSilenceGenerator",
+    "StaticLib": "AkSilenceSource"
+   },
+   {
+    "LibName": "Wwise Delay",
+    "LibId": "6946819",
+    "Type": "Effect",
+    "DLL": "AkDelay",
+    "StaticLib": "AkDelayFX"
+   },
+   {
+    "LibName": "Wwise RoomVerb",
+    "LibId": "7733251",
+    "Type": "Effect",
+    "DLL": "AkRoomVerb",
+    "StaticLib": "AkRoomVerbFX"
+   },
+   {
+    "LibName": "Wwise Pitch Shifter",
+    "LibId": "8912899",
+    "Type": "Effect",
+    "DLL": "AkPitchShifter",
+    "StaticLib": "AkPitchShifterFX"
+   },
+   {
+    "LibName": "Wwise Synth One",
+    "LibId": "9699330",
+    "Type": "Source",
+    "DLL": "AkSynthOne",
+    "StaticLib": "AkSynthOneSource"
+   },
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
+   }
+  ],
+  "FileHash": "{F7A7ACE7-B841-4757-D844-EC5223369194}"
+ }
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2601C786-30F5-47EC-8EC7-7E6510B66608}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{2601C786-30F5-47EC-8EC7-7E6510B66608}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{39D7F775-7602-4E8D-A1A7-B6EBDE2249C3}" WorkUnitID="{56DFF03F-234F-4F65-9005-CD030D960E42}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{7363703D-4A63-451C-B568-0CC2FAE973BF}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{93725929-5007-40B9-9E99-C6F2E8F6891A}" ShortID="174117269">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_Master_LP" ID="{73656CCF-8053-4987-945F-A7A9EEE4100E}" WorkUnitID="{6F47F5E8-F235-4363-8F37-2B3A11EF6DA4}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{708D37DB-A0AC-4A0C-9F35-344D8004265F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>100</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{298F8526-03A7-440F-AFB8-928591B0E74D}" ShortID="467251579">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_Master_VOL" ID="{287BA3A4-30EB-411E-8A86-D70F125F8317}" WorkUnitID="{6F47F5E8-F235-4363-8F37-2B3A11EF6DA4}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{4057CAC0-9570-4DB6-BB78-E1A999DF4DFB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>7.7393</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

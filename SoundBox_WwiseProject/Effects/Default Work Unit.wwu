@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4D28A98F-F230-4F3C-B3BF-5F760BE246F9}" SchemaVersion="110">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{4D28A98F-F230-4F3C-B3BF-5F760BE246F9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Bass_Pitch_Shifter" ID="{4B1BEF03-A3D6-46D8-917B-FC964DB58594}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="250"/>
+						<Property Name="DryLevel" Type="Real32" Value="0"/>
+						<Property Name="FilterFrequency" Type="Real32" Value="849"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{6FB3D440-A27E-4F14-BDB5-4E5932CB152B}" ShortID="842019380">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Bass_Pitch" ID="{7A1FC6DB-3FF4-4304-9781-041CB26DA130}" WorkUnitID="{B86D4BE8-F8C3-4F4A-B2E5-579C385F89D8}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{6FA47166-08F0-495E-8029-795E1FDA21E5}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-1200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{E54BB64C-1878-4BB6-9F43-69DE873726C0}" ShortID="311881121">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="DryLevel"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Bass_Pitch" ID="{7A1FC6DB-3FF4-4304-9781-041CB26DA130}" WorkUnitID="{B86D4BE8-F8C3-4F4A-B2E5-579C385F89D8}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{681AD852-8B22-4B56-A33D-63EDF0850129}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-8.38259</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{77D10E66-CA4E-440A-815D-50D8ED33C91D}" ShortID="449974401">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="WetLevel"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Bass_Pitch" ID="{7A1FC6DB-3FF4-4304-9781-041CB26DA130}" WorkUnitID="{B86D4BE8-F8C3-4F4A-B2E5-579C385F89D8}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{7E3F00A6-0588-4895-BDD0-50B74F99FC3A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>8</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+				<Effect Name="Drums_Pitch_Shifter" ID="{17F2980B-376C-4FF9-8577-AC3F98085F14}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="10"/>
+						<Property Name="DryLevel" Type="Real32" Value="0"/>
+						<Property Name="FilterFrequency" Type="Real32" Value="7531"/>
+						<Property Name="FilterGain" Type="Real32" Value="3.5"/>
+						<Property Name="FilterQFactor" Type="Real32" Value="14.6"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{3E737C13-5C01-4CE9-B536-1E03D41ADBA9}" ShortID="68483105">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Drums_Pitch" ID="{E2CF51D4-75C9-4D06-A7E6-8361353414EA}" WorkUnitID="{F8CDA53B-5265-44B5-9E5D-05DF5C6FE7C6}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{93126AC9-1D0C-4028-BD0B-44A10D597D28}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>3600</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{BB0FF962-4D45-4C5D-8FFD-CDD854C06412}" ShortID="962956392">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="WetLevel"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Drums_Pitch" ID="{E2CF51D4-75C9-4D06-A7E6-8361353414EA}" WorkUnitID="{F8CDA53B-5265-44B5-9E5D-05DF5C6FE7C6}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{68C7096C-7E56-4148-A927-849D4D71DB73}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-7.68923</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{9DA6F134-5CF5-465A-9740-EFCC5E33CA63}" ShortID="399857899">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="DryLevel"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Drums_Pitch" ID="{E2CF51D4-75C9-4D06-A7E6-8361353414EA}" WorkUnitID="{F8CDA53B-5265-44B5-9E5D-05DF5C6FE7C6}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{17573DC8-776B-4769-A8ED-84D26278078F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-2.3675</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+				<Effect Name="Piano_Pitch_Shifter" ID="{97991960-F953-454E-9557-311135AAD09C}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="375"/>
+						<Property Name="DryLevel" Type="Real32" Value="0"/>
+						<Property Name="FilterFrequency" Type="Real32" Value="849"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{FFEF7569-3507-463E-88F7-4C0F36B9F0C2}" ShortID="841429641">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="WetLevel"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Piano_Pitch" ID="{23E8985B-E18B-463F-BE96-E7D7B9496D4B}" WorkUnitID="{FA018098-D206-42A6-897C-E9CB1E799D6A}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{61BD9B60-01DF-4CEF-8A76-8961F271C17E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>3</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{AB82DC12-D6F7-450C-AB93-7993B91BB114}" ShortID="744828486">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Piano_Pitch" ID="{23E8985B-E18B-463F-BE96-E7D7B9496D4B}" WorkUnitID="{FA018098-D206-42A6-897C-E9CB1E799D6A}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{B26A7349-CDD8-4B07-A301-FB88B2A8D4A1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-1200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{3F11FD5E-4F22-4EE8-9289-18EE848FDBEB}" ShortID="841824114">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="DryLevel"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Piano_Pitch" ID="{23E8985B-E18B-463F-BE96-E7D7B9496D4B}" WorkUnitID="{FA018098-D206-42A6-897C-E9CB1E799D6A}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{EBEEF443-2D68-4B8C-9626-B0DF8E87CA85}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-10.16259</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+				<Effect Name="HarpTime_Pitch_Shifter" ID="{66F7263F-09BD-4CBF-94C8-D46439E59DFA}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<Comment> </Comment>
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="250"/>
+						<Property Name="DryLevel" Type="Real32" Value="0"/>
+						<Property Name="FilterFrequency" Type="Real32" Value="1358"/>
+						<Property Name="FilterQFactor" Type="Real32" Value="0.1"/>
+						<Property Name="FilterType" Type="int32" Value="6"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{459244E4-800F-4C07-869D-FFDC18BFB726}" ShortID="987417025">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="WetLevel"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_HarpTime_Pitch" ID="{46665EAA-403B-4594-8EF9-A9D2349D4D4F}" WorkUnitID="{D42C31A0-DC43-44BA-9907-FBF244340CAE}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{C393A227-022C-4F55-8248-9376A48C1293}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>2.20947</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{0C038FD1-8061-4BC9-B6E9-83A94850B054}" ShortID="357346969">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_HarpTime_Pitch" ID="{46665EAA-403B-4594-8EF9-A9D2349D4D4F}" WorkUnitID="{D42C31A0-DC43-44BA-9907-FBF244340CAE}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{21A7DD91-45E9-422B-9E03-A9A8CE5746CB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-1200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{0D397D3E-E8C2-4469-92F0-EC6AF6EB6652}" ShortID="266471723">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="DryLevel"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_HarpTime_Pitch" ID="{46665EAA-403B-4594-8EF9-A9D2349D4D4F}" WorkUnitID="{D42C31A0-DC43-44BA-9907-FBF244340CAE}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{F28AF958-58C6-4810-9605-9B5A5EF0EEAB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-120</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+				<Effect Name="Arp_Pitch_Shifter" ID="{EDB60F41-A45C-4C2C-A6DB-0ED21F9425C2}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="46"/>
+						<Property Name="DryLevel" Type="Real32" Value="0"/>
+						<Property Name="FilterFrequency" Type="Real32" Value="5237"/>
+						<Property Name="FilterQFactor" Type="Real32" Value="2.4"/>
+						<Property Name="FilterType" Type="int32" Value="7"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{725C5DFE-7C15-4D91-8245-CCC7D93FEC7F}" ShortID="323228282">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Arp_Pitch" ID="{F7F9B1E0-C682-4616-BA82-18F559D4934B}" WorkUnitID="{3DF5D31E-80F9-46A3-BA76-74F7224264B5}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{E22A5E74-D5ED-4CF7-84BA-74AB8EF38E0C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-1200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{3A3BD1DC-5BA1-4201-8B14-37B1AB343240}" ShortID="665639358">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="WetLevel"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Arp_Pitch" ID="{F7F9B1E0-C682-4616-BA82-18F559D4934B}" WorkUnitID="{3DF5D31E-80F9-46A3-BA76-74F7224264B5}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{1985EAB9-F565-4004-BA69-B217372A7379}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{290360B3-2569-4D2C-9809-7AB2560A4F2C}" ShortID="79028217">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="DryLevel"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Arp_Pitch" ID="{F7F9B1E0-C682-4616-BA82-18F559D4934B}" WorkUnitID="{3DF5D31E-80F9-46A3-BA76-74F7224264B5}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{B90A1437-9496-4019-95C8-DEC89DE272E6}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-8.3826</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+				<Effect Name="Arp_Delay" ID="{4DC6F6C7-504A-445E-A435-3DAFD984481D}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.188"/>
+						<Property Name="Feedback" Type="Real32" Value="50"/>
+						<Property Name="WetDryMix" Type="Real32" Value="0"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{BE04B332-DE46-4F24-82BE-AA936FAEA302}" ShortID="1055015017">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="WetDryMix"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Arp_Delay" ID="{940C32C5-35A8-4F19-A68B-A818080D8D9C}" WorkUnitID="{3DF5D31E-80F9-46A3-BA76-74F7224264B5}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{787369FF-6B96-464F-9E27-753DFCA4E22E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>80</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+				<Effect Name="Bass_Delay" ID="{269A6361-C917-4D69-BED4-AA3A7133EC1E}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.375"/>
+						<Property Name="Feedback" Type="Real32" Value="60"/>
+						<Property Name="WetDryMix" Type="Real32" Value="0"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{CD003466-2E5E-40BE-B90A-1A430E60F168}" ShortID="288227569">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="WetDryMix"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Bass_Delay" ID="{788AB6A4-2AF0-4164-A603-2A97D72317A1}" WorkUnitID="{B86D4BE8-F8C3-4F4A-B2E5-579C385F89D8}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{B5CE9A21-AD5B-4217-88CC-A7A6F7348082}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>60</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+				<Effect Name="Drums_Delay" ID="{26AFBDFF-A282-4442-BFAF-416641489050}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.375"/>
+						<Property Name="Feedback" Type="Real32" Value="50.5"/>
+						<Property Name="WetDryMix" Type="Real32" Value="0"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{94469BA4-36A9-4000-84E4-F6FD2832BD0B}" ShortID="204766013">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="WetDryMix"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Drums_Delay" ID="{C8DC17E3-7080-45B9-9F29-0E2607156F3A}" WorkUnitID="{F8CDA53B-5265-44B5-9E5D-05DF5C6FE7C6}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{80224190-FFDD-45AF-B82D-5372A81D6B16}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>60</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+				<Effect Name="HarpTime_Delay" ID="{BEEB8695-054D-427E-84CC-DD25EAF789AD}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.188"/>
+						<Property Name="Feedback" Type="Real32" Value="50"/>
+						<Property Name="WetDryMix" Type="Real32" Value="0"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{9B2CF4D3-64DF-4A39-B2CD-413DAE9EA433}" ShortID="1024945966">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="WetDryMix"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_HarpTime_Delay" ID="{1203EBFD-4DC7-4D5C-8600-07BAC2735AC7}" WorkUnitID="{D42C31A0-DC43-44BA-9907-FBF244340CAE}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{89429BD0-7265-4C66-9415-0C428DCF324C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>80</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+				<Effect Name="Piano_Delay" ID="{C8D56030-01C5-454A-8DC7-7936D4C223AA}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.375"/>
+						<Property Name="Feedback" Type="Real32" Value="50.5"/>
+						<Property Name="WetDryMix" Type="Real32" Value="0"/>
+					</PropertyList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{A63500D6-F199-4A40-87F8-4E8058EE0BC0}" ShortID="845805211">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="WetDryMix"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_Piano_Delay" ID="{74F72505-F431-4420-88DB-1C9F3BA86766}" WorkUnitID="{FA018098-D206-42A6-897C-E9CB1E799D6A}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{BEF65B17-3E9E-4076-8556-E4F1A569A3D0}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="1"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>50</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

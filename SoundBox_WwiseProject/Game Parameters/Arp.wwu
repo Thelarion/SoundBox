@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3DF5D31E-80F9-46A3-BA76-74F7224264B5}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Arp" ID="{3DF5D31E-80F9-46A3-BA76-74F7224264B5}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Arp_LP" ID="{C3048FD3-C2A3-4ECF-A1D0-B6E5F57C4C32}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Arp_HP" ID="{C718F0F4-8143-49A4-8150-EFC0C1B2FC14}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Arp_Pitch" ID="{F7F9B1E0-C682-4616-BA82-18F559D4934B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Arp_Delay" ID="{940C32C5-35A8-4F19-A68B-A818080D8D9C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="36"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="31"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Arp_VOL" ID="{DC49804C-6C37-449B-A0E9-642FD3A3D9FA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
